@@ -3,10 +3,10 @@
 #include <string.h>
 int main() {
 	char pwd[20] = { 0 };
-	printf("«Î ‰»Î√‹¬Î:");
+	printf("input your password:");
 	scanf("%s",pwd);
 	getchar();
-	printf("«Î ‰»Î∂‘¥Ì:");
+	printf("Are you Sure?:");
 	int judge = getchar();
 	getchar();
 	if (judge == 'y') {
